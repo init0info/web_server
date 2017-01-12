@@ -14,4 +14,5 @@ version '0.1.0'
 # gets a `View Source` link
 # source_url 'https://github.com/<insert_org_here>/web_server' if respond_to?(:source_url)
 
-depends 'sqlite', '~> 1.1.3'
+depends 'nginx', '~> 5.0.5'
+depends 'php', '~> 2.2.0'
