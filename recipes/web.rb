@@ -20,6 +20,8 @@ end
 # Create the document root directory
 directory '/var/www/customers/public_html' do
   recursive true
+  owner node['web_server']['user']
+  group node['web_server']['group']
 end
 
 # Write the home page
